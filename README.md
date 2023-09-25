@@ -239,3 +239,11 @@ This file can contain sensentive data.
 If you lose this file, you lose knowning the state of your infrastructure.
 
 `.terraform.tfstate.backup` is the previous state file state.
+
+#### Terraform Directory
+
+`.terraform` directory contains binaries of terraform providers.
+
+## Terraform Cloud Login
+
+I did not have to manually insert the generated token from terraform cloud because i was able to login when i attempt `terraform login` and it was stored in this path `/home/gitpod/.terraform.d/credentials.tfrc.json` automatically 
