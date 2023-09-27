@@ -19,3 +19,4 @@ variable "bucket_name" {
     error_message = "The bucket name must be between 3 and 63 characters, start and end with a lowercase letter or number, and can contain only lowercase letters, numbers, hyphens, and dots."
   }
 }
+
